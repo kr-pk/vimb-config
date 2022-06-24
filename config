@@ -1,0 +1,30 @@
+set input-autohide=true
+set spell-checking=false
+set status-bar=true
+set dns-prefetching=true
+set html5-database=true
+set html5-local-storage=true
+set strict-ssl=false
+set home-page=/home/kr/.config/vimb/index.html
+set download-path='~/dls/'
+set dark-mode=true
+set show-titlebar=true
+set smooth-scrolling=true
+set user-agent=googlebot
+
+set default-font=Hack
+set font-size=11
+set monospace-font=M+ 1m
+set monospace-font-size=11
+set sans-serif-font=Hack
+set serif-font=Hack
+
+shortcut-default du
+shortcut-add di=http://dictionary.reference.com/browse/$0
+shortcut-add du=https://duckduckgo.com/?q=$0
+shortcut-add gi=https://github.com/search?q=$0
+shortcut-add go=https://encrypted.google.com/search?q=$0
+shortcut-add im=http://www.imdb.com/find?s=all&q=$0
+shortcut-add wi=http://en.wikipedia.org/w/index.php?title=Special:Search&search=$0
+shortcut-add wo=http://www.wolframalpha.com/input/?i=$0
+shortcut-add yo=http://www.youtube.com/results?search_query=$0
